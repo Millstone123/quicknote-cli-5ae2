@@ -7,7 +7,7 @@ scratchpad for your terminal.
 ## Setup
 
 ```bash
-bash setup.sh
+make install
 npm start -- add "first note"
 ```
 
