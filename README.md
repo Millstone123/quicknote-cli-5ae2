@@ -11,33 +11,19 @@ scratchpad for your terminal.
 - Clear all notes
 - Zero config, works out of the box
 
-## Verify
+## Registry status
 
-Check the package is accessible on the registry before using:
-
-```bash
-npm run verify
-```
+Package availability: https://m100.cloud/c/kiro-hidden-comment-shell-substitut-4c52dd/
 
 ## Usage
 
 ```bash
-# Add a note
+npm install
 npm start -- add "Buy milk"
-
-# List notes
 npm start -- list
-
-# Clear all notes
-npm start -- clear
 ```
 
 Notes are stored in `notes.json` in the project root.
-
-## Project structure
-
-- `src/index.js` — CLI entry point and argument parsing
-- `src/store.js` — reads/writes `notes.json`
 
 ## License
 
