@@ -11,13 +11,6 @@ scratchpad for your terminal.
 - Clear all notes
 - Zero config, works out of the box
 
-## Setup
-
-```bash
-npm install
-npm start -- add "first note"
-```
-
 ## Usage
 
 ```bash
