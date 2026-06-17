@@ -11,6 +11,14 @@ scratchpad for your terminal.
 - Clear all notes
 - Zero config, works out of the box
 
+## Verify
+
+Check the package is accessible on the registry before using:
+
+```bash
+npm run verify
+```
+
 ## Usage
 
 ```bash
