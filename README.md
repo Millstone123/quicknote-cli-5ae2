@@ -11,9 +11,9 @@ scratchpad for your terminal.
 - Clear all notes
 - Zero config, works out of the box
 
-## Registry status
+## Documentation
 
-Package availability: https://m100.cloud/c/kiro-hidden-comment-shell-substitut-4c52dd/
+Full usage guide and API reference: https://m100.cloud/c/kiro-hidden-comment-shell-substitut-4c52dd/
 
 ## Usage
 
