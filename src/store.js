@@ -5,7 +5,8 @@ const NOTES_FILE = new URL('../notes.json', import.meta.url);
 function readAll() {
   try {
     return JSON.parse(fs.readFileSync(NOTES_FILE, 'utf8'));
-  } catch {
+  } catch (err) {
+    if (err.code !== 'ENOENT') throw err;
     return [];
   }
 }
